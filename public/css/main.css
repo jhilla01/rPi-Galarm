@@ -1,0 +1,26 @@
+/* Set vertical alignment and font size for .status, button, label, and input elements */
+.status,
+button,
+label,
+input {
+    vertical-align: middle;
+    font-size: 2rem;
+}
+
+/* Set font size for input[type=time] elements */
+input[type="time"] {
+    font-size: 1.5rem;
+}
+
+/* Set width, margin, and text alignment for .status and button elements */
+.status,
+button {
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+/* Hide the .status element by default */
+.status {
+    display: none;
+}
